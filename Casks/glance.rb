@@ -2,8 +2,7 @@ cask "glance" do
   version "0.5.1"
   sha256 "7208c5c80fe1e38c088c6380806d74f49f711e8be2090c13a21ba10b06bceb4a"
 
-  url "https://github.com/ncrohn/glance/releases/download/v#{version}/Glance_#{version}_aarch64.dmg",
-      verified: "github.com/ncrohn/glance/"
+  url "https://github.com/ncrohn/glance/releases/download/v#{version}/Glance_#{version}_aarch64.dmg"
   name "Glance"
   desc "Lightweight markdown viewer and editor"
   homepage "https://github.com/ncrohn/glance"
