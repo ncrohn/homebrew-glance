@@ -1,6 +1,6 @@
 cask "glance" do
-  version "0.6.0"
-  sha256 "a4efe4381583c59b0dc895af03aad89e48da19e3287935ecb9671f44f5c2cced"
+  version "0.6.1"
+  sha256 "613f45ea4bd78e193a6352759a2ca36b876cae717245428bbe833970ec2db20d"
 
   url "https://github.com/ncrohn/glance/releases/download/v#{version}/Glance_#{version}_aarch64.dmg"
   name "Glance"
