@@ -1,6 +1,6 @@
 cask "glance" do
-  version "0.11.0"
-  sha256 "db614c83231d7c7e4cb4a54eb34d6f6789c6ce9ae67f68ef1d6d1816b8d1796f"
+  version "0.12.0"
+  sha256 "511cee587012254eed17e374616caebe679aae38a424ed9133b1e7eb67f70b68"
 
   url "https://github.com/ncrohn/glance/releases/download/v#{version}/Glance_#{version}_aarch64.dmg"
   name "Glance"
@@ -12,6 +12,7 @@ cask "glance" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on :macos
 
